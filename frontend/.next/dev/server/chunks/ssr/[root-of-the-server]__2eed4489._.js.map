@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/tripplan-curr%20-%20Copy/frontend/pages/404.js"],"sourcesContent":["export default function NotFound() {\r\n  return (\r\n    <div style={{minHeight:'70vh', display:'flex', alignItems:'center', justifyContent:'center', padding:24}}>\r\n      <div style={{textAlign:'center'}}>\r\n        <h1>404 — Page not found</h1>\r\n        <p>The page you're looking for does not exist.</p>\r\n        <a href=\"/\" style={{color:'#2563eb'}}>Go back home</a>\r\n      </div>\r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,qKAAC;QAAI,OAAO;YAAC,WAAU;YAAQ,SAAQ;YAAQ,YAAW;YAAU,gBAAe;YAAU,SAAQ;QAAE;kBACrG,cAAA,qKAAC;YAAI,OAAO;gBAAC,WAAU;YAAQ;;8BAC7B,qKAAC;8BAAG;;;;;;8BACJ,qKAAC;8BAAE;;;;;;8BACH,qKAAC;oBAAE,MAAK;oBAAI,OAAO;wBAAC,OAAM;oBAAS;8BAAG;;;;;;;;;;;;;;;;;AAI9C","debugId":null}}]
+}

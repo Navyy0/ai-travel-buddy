@@ -1,0 +1,65 @@
+/**
+ * AI Travel Buddy - Responsive iframe CSS
+ * Provides responsive styling for embedding the travel planner
+ */
+
+.air-travel-buddy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.air-travel-buddy-iframe {
+  width: 100%;
+  height: 900px;
+  border: none;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Responsive adjustments for tablets */
+@media (max-width: 768px) {
+  .air-travel-buddy-container {
+    margin: 1.5rem 0;
+  }
+
+  .air-travel-buddy-iframe {
+    height: 700px;
+  }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 480px) {
+  .air-travel-buddy-container {
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+
+  .air-travel-buddy-iframe {
+    height: 600px;
+    border-radius: 8px;
+  }
+}
+
+/* Loading state (optional) */
+.air-travel-buddy-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  border-radius: 12px;
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+/* Accessibility improvements */
+.air-travel-buddy-iframe:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}

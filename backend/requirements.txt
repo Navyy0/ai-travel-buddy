@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic[email]
+motor
+python-jose[cryptography]
+bcrypt
+httpx
+python-dotenv
+google-generativeai
+firebase-admin
+pytest
+pytest-asyncio
+pytest-mock
+requests
