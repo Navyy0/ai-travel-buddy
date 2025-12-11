@@ -34,6 +34,7 @@ if origins_env:
 else:
     # sensible development defaults (includes emulator mapping and Capacitor host)
     origins = [
+        "https://travelbuddy-ai.onrender.com",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://localhost:5173",
