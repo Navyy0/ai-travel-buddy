@@ -22,21 +22,22 @@ export default function Profile() {
       <SiteHeader />
       <div style={{minHeight:'80vh', padding: 24}}>
         <div style={{maxWidth:720, margin:'0 auto'}}>
-        <h1>Profile</h1>
-        <div style={{background:'#fff', padding:20, borderRadius:12, boxShadow:'0 8px 24px rgba(15,23,42,0.06)'}}>
-          <dl>
-            <dt style={{fontWeight:700}}>Email</dt>
-            <dd style={{marginBottom:12}}>{user ? user.email : '—'}</dd>
+          <h1>Profile</h1>
+          <div style={{background:'#fff', padding:20, borderRadius:12, boxShadow:'0 8px 24px rgba(15,23,42,0.06)'}}>
+            <dl>
+              <dt style={{fontWeight:700}}>Email</dt>
+              <dd style={{marginBottom:12}}>{user ? user.email : '—'}</dd>
 
-            <dt style={{fontWeight:700}}>Role</dt>
-            <dd style={{marginBottom:12}}>{user ? user.role : 'traveler'}</dd>
-          </dl>
+              <dt style={{fontWeight:700}}>Role</dt>
+              <dd style={{marginBottom:12}}>{user ? user.role : 'traveler'}</dd>
+            </dl>
 
-          <div style={{marginTop:20}}>
-            <button onClick={doLogout} style={{padding:'0.75rem 1.25rem', background:'#ef4444', color:'#fff', border:'none', borderRadius:8, cursor:'pointer'}}>Log out</button>
+            <div style={{marginTop:20}}>
+              <button onClick={doLogout} style={{padding:'0.75rem 1.25rem', background:'#ef4444', color:'#fff', border:'none', borderRadius:8, cursor:'pointer'}}>Log out</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
