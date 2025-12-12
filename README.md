@@ -311,10 +311,4 @@ UX & accessibility notes
 ## WordPress plugin
 - `wordpress-plugin/ai-travel-buddy/` provides a shortcode to embed the planner via iframe. The plugin stores an admin-saved planner URL in settings; I can apply a small patch to prefer the saved URL if you want.
 
-## Next steps (suggested)
-- (A) Expand per-file function signatures and examples (long).
-- (B) Run dev servers and smoke-test behaviors (requires permission to start processes).
-- (C) Apply the WordPress plugin patch so shortcode prefers the saved admin URL.
 
-If you want me to proceed with one of the above, tell me which and I'll continue.
-- `frontend/pages/index.js`
